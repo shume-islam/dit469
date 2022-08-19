@@ -1,0 +1,63 @@
+*{margin: 0;
+padding: 0;
+border:0 ;
+}
+body{
+    background-color: aquamarine;
+}
+#admin-box{
+    background-color: rgb(240, 51, 186);
+    color: aqua;
+    text-align: center;
+    width: 50%;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.admin-img{width: 150px;
+
+}
+#admin-box h1{
+font-size: 35px;
+text-transform: uppercase;
+}
+input,label{
+display: block;
+width: 90%;
+margin: auto;
+padding: 10px;
+}
+input{
+    background-color:transparent;
+color: black;
+border: 1px solid black;
+border-radius: 5px;
+}
+label{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+p a{
+    text-decoration: none;
+    color: rgb(21, 223, 78);
+    text-transform: capitalize;
+}
+input:focus{
+   background-color: aqua; 
+}
+input::placeholder{
+    color: black;
+}
+input[type="submit"]{
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    margin: 20px auto;
+    width:25% ;
+    transition: ease-in-out 0.8s;
+}
+input[type="submit"]:hover{
+    background-color: transparent;
+    border: 1px solid black
+}
